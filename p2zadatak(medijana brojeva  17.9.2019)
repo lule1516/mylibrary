@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main(){
+int i,a,g;
+int s[100];
+scanf("%d",&a);
+for(i=1;i<=a;i++){
+    scanf("%d",&s[i]);
+    g=i;
+
+}
+
+if(g%2==0){
+
+    g=g/2;
+    printf("%d",s[g]);
+    printf("%d",s[g+1]);
+
+
+
+}
+
+else{
+        g=(g+1)/2;
+printf("%d",s[g]);
+}
+
+
+}
